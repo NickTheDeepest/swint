@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9524E9652E84259700246A0E /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524E9642E84259700246A0E /* Deck.swift */; };
+		9524E9672E855BE700246A0E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524E9662E855BE700246A0E /* Card.swift */; };
+		9524E9692E85624800246A0E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524E9682E85624800246A0E /* Player.swift */; };
+		9524E96B2E85641700246A0E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524E96A2E85641700246A0E /* Game.swift */; };
 		957749E92E828241009B4034 /* swintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957749E82E828241009B4034 /* swintApp.swift */; };
 		957749EB2E828241009B4034 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957749EA2E828241009B4034 /* ContentView.swift */; };
 		957749ED2E828245009B4034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957749EC2E828245009B4034 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9524E9642E84259700246A0E /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		9524E9662E855BE700246A0E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9524E9682E85624800246A0E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9524E96A2E85641700246A0E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		957749E52E828241009B4034 /* swint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957749E82E828241009B4034 /* swintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swintApp.swift; sourceTree = "<group>"; };
 		957749EA2E828241009B4034 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		957749E72E828241009B4034 /* swint */ = {
 			isa = PBXGroup;
 			children = (
+				9524E96A2E85641700246A0E /* Game.swift */,
+				9524E9682E85624800246A0E /* Player.swift */,
+				9524E9642E84259700246A0E /* Deck.swift */,
+				9524E9662E855BE700246A0E /* Card.swift */,
 				957749E82E828241009B4034 /* swintApp.swift */,
 				957749EA2E828241009B4034 /* ContentView.swift */,
 				957749EC2E828245009B4034 /* Assets.xcassets */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9524E9652E84259700246A0E /* Deck.swift in Sources */,
+				9524E96B2E85641700246A0E /* Game.swift in Sources */,
 				957749EB2E828241009B4034 /* ContentView.swift in Sources */,
 				957749E92E828241009B4034 /* swintApp.swift in Sources */,
+				9524E9692E85624800246A0E /* Player.swift in Sources */,
+				9524E9672E855BE700246A0E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
